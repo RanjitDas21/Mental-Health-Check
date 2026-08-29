@@ -6,7 +6,7 @@ from typing import Literal
 from fastapi.middleware.cors import CORSMiddleware
 
 model = joblib.load('Mental_Health_Model.pkl')
-top_countries = ['Other','India','USA','Canada','Australia','UK','Germany','Mexico','Turkey','France']
+top_countries = ['India','USA','Canada','Australia','UK','Germany','Mexico','Turkey','France','Spain','Ireland','Japan','Denmark','Switzerland']
 
 app = FastAPI()
 
